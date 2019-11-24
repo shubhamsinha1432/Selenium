@@ -1,0 +1,11 @@
+package TestRunner;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@Cucumber.Options(features="C:\\Users\\chandan\\eclipse-workspace\\CucumberFramework\\Features\\facebook.feature",glue="OHRM_Login")
+public class Runner {
+
+}

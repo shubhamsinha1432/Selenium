@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="FirefoxTest">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="MultiBrowser.MultiBrowser_Using_parameter"/>
+    </classes>
+  </test> <!-- FirefoxTest -->
+  <test name="IETest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="MultiBrowser.MultiBrowser_Using_parameter"/>
+    </classes>
+  </test> <!-- IETest -->
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="MultiBrowser.MultiBrowser_Using_parameter">
+        <methods>
+          <include name="logIn"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- MultiBrowser.MultiBrowser_Using_parameter -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="MultiBrowser.MultiBrowser_Using_parameter">
+        <methods>
+          <include name="logIn"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- MultiBrowser.MultiBrowser_Using_parameter -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

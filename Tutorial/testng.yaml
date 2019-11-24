@@ -1,0 +1,15 @@
+name: Suite
+parallel: none
+tests:
+  - name: FirefoxTest
+    parallel: none
+    parameters: { browser: firefox }
+    classes:
+      - MultiBrowser.MultiBrowser_Using_parameter
+
+  - name: ChromeTest
+    parallel: none
+    parameters: { browser: chrome }
+    classes:
+      - MultiBrowser.MultiBrowser_Using_parameter
+

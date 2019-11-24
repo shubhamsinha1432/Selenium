@@ -1,0 +1,41 @@
+package NewTours_Registration_Test;
+
+import java.io.FileInputStream;
+
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import NewTours_BaseTest.BaseTest;
+
+public class NewTours_Registration_Test extends BaseTest{
+	
+	NewTours_Registration.NewTours_RegistrationPage NewTours_RegistrationPage=null;
+	@Test(priority=1)
+	public void register_button()
+	{
+		NewTours_RegistrationPage=PageFactory.initElements(driver, NewTours_Registration.NewTours_RegistrationPage.class);
+		NewTours_RegistrationPage.register_button();
+	}
+	
+	@Test(priority=2)
+	public void register()
+	{   
+		FileInputStream file=new FileInputStream("C://Users//Dell//Desktop//POM//src//ApplicationTestDataFiles//RegistrationTestData.xlsx");
+		XSSFWorkbook workbook=new XSSFWorkbook(file);
+		XSSFSheet sheet=workbook.getSheet("sheet1");
+		int rowCount=sheet.getLastRowNum();
+		
+		for(int i=1;i<=rowCount;i++)
+		{
+			Row row=sheet.getRow(i);
+			
+		NewTours_RegistrationPage=PageFactory.initElements(driver, NewTours_Registration.NewTours_RegistrationPage.class);
+		NewTours_RegistrationPage.register(FirstName, LastName, Phone, Email, Address, City, State, PostalCode, Country, UserName, Password, ConfirmPassword);
+		
+		
+	}
+
+}

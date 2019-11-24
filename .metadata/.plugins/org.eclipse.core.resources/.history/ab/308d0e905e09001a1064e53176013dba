@@ -1,0 +1,16 @@
+package com.Capturing_ValidatingURL_Facebook;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ValidatingURLFacebook {
+
+	public static void main(String[] args) {
+		 String facebook_url="http://facebook.com";
+			
+			System.setProperty("webdriver.chrome.driver", "C://Users//Dell//Desktop//Tutorial//Driver Files//chromedriver.exe");
+	        ChromeDriver driver=new ChromeDriver();
+	        driver.get(facebook_url);
+
+	}
+
+}

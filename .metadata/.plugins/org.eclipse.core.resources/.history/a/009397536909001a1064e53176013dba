@@ -1,0 +1,10 @@
+package LinksCount_DisplayNames;
+
+public class Navigate_NewTours_linksCount_And_DisplayNames {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package NewTours_runner;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@Cucumber.Options(features="C://Users//Dell//Desktop//Cucumber Framework//Features//NewTours_registration.feature", glue="NewTours_Registration")
+
+public class Runner {
+
+}

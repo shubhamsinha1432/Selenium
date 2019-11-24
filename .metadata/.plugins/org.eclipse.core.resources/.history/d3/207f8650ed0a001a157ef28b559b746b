@@ -1,0 +1,34 @@
+package MultiBrowser;
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+
+
+
+public class MultiBrowser_Using_parameter {
+	WebDriver driver=null;
+	String url="http://www.store.demoqa.com";
+	@Parameters("browser")
+	@BeforeClass
+	public void beforeTest(String browser)
+	{
+	 if(browser.equalsIgnoreCase("firefox"))
+	 {
+		 driver=new FirefoxDriver();
+		 System.setProperty("webdriver.gecko.driver","C://Users//Dell//Desktop//Tutorial//Driver Files//geckodriver.exe");
+		 driver.get(url);
+	 }
+	 else
+	 {    
+		 System.setProperty("webdriver.chrome.driver", "C://Users//Dell//Desktop//Tutorial//Driver Files//chromedriver.exe");
+		 driver=new ChromeDriver();
+		 driver.get(url);
+	 }
+	}
+
+}

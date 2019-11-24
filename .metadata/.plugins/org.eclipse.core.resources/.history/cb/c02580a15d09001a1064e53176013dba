@@ -1,0 +1,10 @@
+package com.Capturing_ValidatingURL_Facebook;
+
+public class ValidatingURLFacebook {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

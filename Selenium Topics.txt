@@ -1,0 +1,7 @@
+1.Maven Project
+2.Database
+3.Log4j
+4.ExtentReport
+5.Hybrid Framework
+6.GIT
+7.Jenkins

@@ -1,0 +1,22 @@
+package Facebook_LoginTest;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+
+public class LoginTest {
+	
+	@Test(priority=1)
+	public void login() throws IOException
+	{
+		FileInputStream file=new FileInputStream("C://Users//Dell//Desktop//POM//src//ApplicationTestDataFiles//Facebook_LoginTestData.xlsx");
+		XSSFWorkbook workbook=new XSSFWorkbook(file);
+		XSSFSheet sheet=workbook.getSheet("sheet1");
+		int rowCount=sheet.getLastRowNum();
+		
+	}
+
+}

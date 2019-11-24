@@ -1,0 +1,20 @@
+package Log4j;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.WebDriver;
+
+public class logger_Log4j {
+	
+	WebDriver driver;
+	Logger logger=Logger.getLogger("logger_Log4j");
+	
+	public static void main(String[] args) {
+     		
+	PropertyConfigurator.configure();	
+		
+		
+		
+		
+	}
+}

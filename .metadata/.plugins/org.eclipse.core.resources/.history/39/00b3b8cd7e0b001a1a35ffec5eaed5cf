@@ -1,0 +1,5 @@
+package Stepdefinition;
+
+public class Steps {
+	features="C://Users//Dell//Desktop//Cucumber Framework//Features//MyTest.feature",glue="stepdefinition"
+}

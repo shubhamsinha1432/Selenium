@@ -1,0 +1,13 @@
+2019-11-19 23:22:29,143 +0530 [main] INFO  (logger_Log4j.java:17) - Implicit wait applied on the driver for 10 seconds
+2019-11-19 23:23:51,681 +0530 [main] INFO  (logger_Log4j.java:26) - Implicit wait applied on the driver for 10 seconds
+2019-11-19 23:23:53,049 +0530 [main] INFO  (logger_Log4j.java:32) - Web application launched
+2019-11-19 23:24:52,349 +0530 [main] INFO  (logger_Log4j.java:26) - Implicit wait applied on the driver for 10 seconds
+2019-11-19 23:24:53,144 +0530 [main] INFO  (logger_Log4j.java:32) - Web application launched
+2019-11-19 23:33:56,272 +0530 [main] INFO  (logger_Log4j.java:27) - Implicit wait applied on the driver for 10 seconds
+2019-11-19 23:34:01,199 +0530 [main] INFO  (logger_Log4j.java:33) - Web application launched
+2019-11-19 23:36:03,831 +0530 [main] INFO  (logger_Log4j.java:27) - Implicit wait applied on the driver for 10 seconds
+2019-11-19 23:36:08,584 +0530 [main] INFO  (logger_Log4j.java:33) - Web application launched
+2019-11-19 23:36:09,043 +0530 [main] INFO  (logger_Log4j.java:41) - Username entered in the Username text box
+2019-11-19 23:36:09,209 +0530 [main] INFO  (logger_Log4j.java:49) - Password entered in the Password text box
+2019-11-19 23:36:11,876 +0530 [main] INFO  (logger_Log4j.java:55) - Click action performed on Submit button
+2019-11-19 23:36:12,801 +0530 [main] INFO  (logger_Log4j.java:71) - Browser closed

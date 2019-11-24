@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28129" started-at="2019-11-23T15:57:43Z" finished-at="2019-11-23T15:58:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28129" started-at="2019-11-23T15:57:43Z" finished-at="2019-11-23T15:58:11Z">
+      <class name="FontTest.fontTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:FontTest.fontTest@61a52fbd]" name="setup" is-config="true" duration-ms="25771" started-at="2019-11-23T21:27:43Z" finished-at="2019-11-23T21:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="readFontProperty()[pri:0, instance:FontTest.fontTest@61a52fbd]" name="readFontProperty" duration-ms="1081" started-at="2019-11-23T21:28:09Z" finished-at="2019-11-23T21:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFontProperty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FontTest.fontTest@61a52fbd]" name="tearDown" is-config="true" duration-ms="1013" started-at="2019-11-23T21:28:10Z" finished-at="2019-11-23T21:28:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FontTest.fontTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

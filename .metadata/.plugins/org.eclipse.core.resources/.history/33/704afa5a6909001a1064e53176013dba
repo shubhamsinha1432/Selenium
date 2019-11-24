@@ -1,0 +1,16 @@
+package LinksCount_DisplayNames;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Navigate_NewTours_linksCount_And_DisplayNames {
+
+	public static void main(String[] args) {
+        String google_url="http://newtours.demoaut.com/";
+		
+		System.setProperty("webdriver.chrome.driver", "C://Users//Dell//Desktop//Tutorial//Driver Files//chromedriver.exe");
+        ChromeDriver driver=new ChromeDriver();
+        driver.get(google_url);
+
+	}
+
+}
